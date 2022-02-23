@@ -1,0 +1,16 @@
+.contact-content {
+    height: 100vh;
+    display: flex;
+    margin-top: 40px;
+    padding: 10px;
+    position: relative;
+}
+.contact-content::after{
+    content: "";
+    background-image: url("../img/Web_15-04.jpg");
+    position: absolute;
+    width: 100%;
+    height: inherit;
+    opacity: 0.15;
+    z-index: -1;
+}
